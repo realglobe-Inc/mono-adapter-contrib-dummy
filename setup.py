@@ -4,4 +4,10 @@ setup(
     name="sugo-unit-dummy",
     version="0.1",
     packages=["sugo.unit"],
+    install_requires=[
+        "sugo_unit_base",
+    ],
+    dependency_links=[
+        'git+https://github.com/realglobe-Inc/sugo-unit-base#egg=sugo_unit_base',
+    ]
 )
