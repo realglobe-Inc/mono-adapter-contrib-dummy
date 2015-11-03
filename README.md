@@ -1,2 +1,3 @@
-# mono-adapter-contrib-dummy
-インストールテスト用
+# sugo-unit-dummy
+
+インストールテスト用。

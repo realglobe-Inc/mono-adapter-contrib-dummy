@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name="mono-adapter-contrib-dummy",
+    name="sugo-unit-dummy",
     version="0.1",
-    packages=["mono_adapter_contrib_dummy"],
+    packages=["sugo.unit"],
 )
