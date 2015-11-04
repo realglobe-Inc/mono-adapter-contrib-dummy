@@ -7,7 +7,5 @@ setup(
     install_requires=[
         "sugo-unit-lib",
     ],
-    dependency_links=[
-        'http://github.com/realglobe-Inc/sugo-unit-lib/tarball/master#egg=sugo_unit_lib',
-    ],
+    dependency_links=['http://github.com/realglobe-Inc/sugo-unit-lib/tarball/master#egg=sugo_unit_lib'],
 )
