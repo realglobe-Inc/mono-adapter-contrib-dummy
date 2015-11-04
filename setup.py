@@ -12,4 +12,5 @@ setup(
     version="0.1",
     packages=["sugo.unit"],
     install_requires=install_reqs,
+    dependency_links=["git+http://github.com/realglobe-Inc/sugo-unit-lib#egg=sugo_unit_lib"]
 )
