@@ -5,9 +5,9 @@ setup(
     version="0.1",
     packages=["sugo.unit"],
     install_requires=[
-        "sugo-unit-base",
+        "sugo-unit-lib",
     ],
     dependency_links=[
-        'git+https://github.com/realglobe-Inc/sugo-unit-base#egg=sugo_unit_base-1.0',
+        'git+https://github.com/realglobe-Inc/sugo-unit-lib#egg=sugo_unit_lib',
     ],
 )
