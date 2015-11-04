@@ -8,6 +8,6 @@ setup(
         "sugo-unit-lib",
     ],
     dependency_links=[
-        'git+https://github.com/realglobe-Inc/sugo-unit-lib#egg=sugo_unit_lib',
+        'http://github.com/realglobe-Inc/sugo-unit-lib/tarball/master#egg=sugo_unit_lib',
     ],
 )
