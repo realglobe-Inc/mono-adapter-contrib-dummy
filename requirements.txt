@@ -1,1 +1,1 @@
-git+http://github.com/realglobe-Inc/sugo-unit-lib#egg=sugo_unit_lib-0.1
+git+http://github.com/realglobe-Inc/sugo-unit-lib@master#egg=sugo_unit_lib

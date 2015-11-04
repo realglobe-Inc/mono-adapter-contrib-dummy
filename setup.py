@@ -5,9 +5,13 @@ from setuptools import setup
 
 path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "requirements.txt")
 entries = list(parse_requirements(path, session=False))
-install_reqs = [str(entry.req) for entry in entries]
+install_reqs = [str(entry.req) for entry in entries if entry.req]
 dep_links = [str(entry.link) for entry in entries if entry.link]
 
+print(install_reqs)
+print(dep_links)
+
+exit()
 
 setup(
     name="sugo-unit-dummy",
