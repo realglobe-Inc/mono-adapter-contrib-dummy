@@ -1,16 +1,10 @@
-from pip.req import parse_requirements
-import os
 from setuptools import setup
-
-
-path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "requirements.txt")
-install_reqs = [str(req.req) for req in parse_requirements(path, session=False)]
 
 
 setup(
     name="sugo-unit-dummy",
     version="0.1",
     packages=["sugo.unit"],
-    install_requires=install_reqs,
-    dependency_links=["git+https://github.com/realglobe-Inc/sugo-unit-lib#egg=sugo_unit_lib"]
+    install_requires=["sugo-unit-lib>=0.1"],
+    dependency_links=["git+https://github.com/realglobe-Inc/sugo-unit-lib#egg=sugo_unit_lib-0.1"],
 )
