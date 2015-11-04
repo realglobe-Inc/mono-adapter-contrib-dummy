@@ -8,6 +8,6 @@ setup(
         "sugo.unit.base",
     ],
     dependency_links=[
-        'git+https://github.com/realglobe-Inc/sugo-unit-base#egg=sugo_unit_base',
+        'git+https://github.com/realglobe-Inc/sugo-unit-base#egg=sugo.unit.base',
     ]
 )
