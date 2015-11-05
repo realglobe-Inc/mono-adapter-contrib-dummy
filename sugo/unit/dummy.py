@@ -1,2 +1,2 @@
-class Adapter(object):
+class Unit(object):
     pass
