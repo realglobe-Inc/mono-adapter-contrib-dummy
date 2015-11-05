@@ -1,1 +1,3 @@
-git+https://github.com/realglobe-Inc/sugo-unit-lib#egg=sugo_unit_lib
+# PyPI 以外の場合はバージョン指定必須っぽい。
+
+git+https://github.com/realglobe-Inc/sugo-unit-lib#egg=sugo_unit_lib-0.1
