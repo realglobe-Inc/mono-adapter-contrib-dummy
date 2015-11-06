@@ -5,12 +5,11 @@ from setuptools import setup
 
 # 依存先が github でも動くように頑張る。
 
-path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "requirements.txt")
-entries = list(parse_requirements(path, session=False))
 install_reqs = []
 dep_links = []
 
-for entry in entries:
+
+for entry in parse_requirements("requirements.txt", session=False):
     if not entry.req:
         continue
     if not entry.link:
