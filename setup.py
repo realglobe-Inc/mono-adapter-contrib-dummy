@@ -1,5 +1,4 @@
 from pip.req import parse_requirements
-import os
 from setuptools import setup
 
 
